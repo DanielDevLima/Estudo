@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(243, 243, 227);
+}
+
+main {}
+
+img {
+    width: 1120px;
+    height: 400px;
+    object-fit: cover;
+}
+
+p {
+    color: red;
+}
