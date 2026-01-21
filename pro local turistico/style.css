@@ -4,12 +4,34 @@ body {
 
 main {}
 
+#page {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 154px;
+
+}
+
+div+img {
+    height: 700px;
+}
+
 img {
     width: 1120px;
     height: 400px;
     object-fit: cover;
+    border-radius: 28px;
+
 }
 
 p {
+    color: red;
+    width: 1120px;
+}
+
+h1 h2 {
+    width: 1120px;
+}
+
+h2+ul {
     color: red;
 }
