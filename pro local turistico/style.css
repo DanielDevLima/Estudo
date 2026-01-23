@@ -1,8 +1,18 @@
+* {
+    /* width: 0px; */
+    /* height: 0px; */
+}
+
 body {
     background-color: rgb(243, 243, 227);
 }
 
 main {}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 #page {
     padding-left: 180px;
@@ -28,10 +38,19 @@ p {
     width: 1120px;
 }
 
-h1 h2 {
-    width: 1120px;
+h1 {
+    max-width: 1120px;
+}
+
+h2 {
+    max-width: 1120px;
 }
 
 h2+ul {
     color: red;
+}
+
+footer {
+    text-align: center;
+    text-justify: auto;
 }
